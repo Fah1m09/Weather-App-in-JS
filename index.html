@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!-- =============================================== Body Part =============================================-->
+    <div class="section">
+
+        <div class="location">
+
+            <div class="left">
+                <h1 class="location-timezone">Dhaka, Bangladesh</h1>
+                <h3 id="date">Tuesday, 29 September, 2021</h3>
+            </div>
+
+            <div class="weather-icon" id="icon">
+                <canvas id="icon1" width="180" height="150"></canvas>
+                <h3 class="humidity-data">Humidity: </h3>
+                <h3 class="wind-speed">Wind Speed: </h3>
+            </div>
+
+        </div>
+        <!-- ============================================= Temp Part =============================================-->
+        <div class="temperature">
+
+            <div class="box">
+                <h2 class="temperature-degree">34</h2>
+                <span class="parameter">C</span>
+            </div>
+
+            <div class="temperature-description">Its very cold</div>
+        </div>
+
+    </div>
+    <!-- ============================================= Java Script =============================================-->
+    <script src="/skycons.js"></script>
+    <script src="/app.js"></script>
+
+</body>
+
+</html>
